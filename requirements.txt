@@ -1,0 +1,16 @@
+# --- API ---
+fastapi==0.115.6
+uvicorn[standard]==0.30.6
+
+# --- File & Image Processing ---
+pillow==10.4.0
+pdf2image==1.17.0
+
+# --- OCR ---
+pytesseract==0.3.13
+
+# --- Data Validation ---
+pydantic==2.9.2
+
+# --- HTTP / Utils ---
+python-multipart==0.0.9

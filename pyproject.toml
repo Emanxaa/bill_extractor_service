@@ -1,0 +1,25 @@
+[project]
+name = "bill-extractor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "babel>=2.17.0",
+    "fastapi==0.115.6",
+    "google-genai>=1.56.0",
+    "pdf2image==1.17.0",
+    "pillow==10.4.0",
+    "pydantic==2.9.2",
+    "pydantic-settings>=2.12.0",
+    "pytesseract==0.3.13",
+    "python-dateutil>=2.9.0.post0",
+    "python-multipart==0.0.9",
+    "uvicorn[standard]==0.30.6",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "ruff>=0.14.10",
+]
